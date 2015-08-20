@@ -1,0 +1,71 @@
+﻿Build started 2015/8/20 11:19:33.
+     1>Project "D:\tzx\git\CrossOS\build\CrossOS.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "CrossOS.dir\Debug\CrossOS.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Generating ui_clientagent.h
+         Generating ui_serveragent.h
+         Building Custom Rule D:/tzx/git/CrossOS/CMakeLists.txt
+         CMake does not need to re-run because D:\tzx\git\CrossOS\build\CMakeFiles\generate.stamp is up-to-date.
+         Generating moc_client.cxx
+         Generating moc_clientagent.cxx
+         Generating moc_moderator.cxx
+         D:/tzx/git/CrossOS/moderator.h(0): Note: No relevant classes found. No output generated.
+         Generating moc_server.cxx
+         Generating moc_serveragent.cxx
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\tzx\git\CrossOS\build /ID:\tzx\git\CrossOS /I"C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\include" /I"C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\include\QtOpenGL" /I"C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\include\phonon" /I"C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\include\QtGui" /I"C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\include\QtXml" /I"C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\include\QtNetwork" /I"C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\include\QtCore" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D QT_DLL /D QT_OPENGL_LIB /D QT_PHONON_LIB /D QT_GUI_LIB /D QT_XML_LIB /D QT_NETWORK_LIB /D QT_CORE_LIB /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"CrossOS.dir\Debug\\" /Fd"CrossOS.dir\Debug\vc100.pdb" /Gd /TP /errorReport:prompt ..\client.cpp ..\clientagent.cpp ..\main.cpp ..\moderator.cpp ..\server.cpp ..\serveragent.cpp moc_client.cxx moc_clientagent.cxx moc_moderator.cxx moc_server.cxx moc_serveragent.cxx
+         client.cpp
+         clientagent.cpp
+         main.cpp
+         moderator.cpp
+     1>..\moderator.cpp(12): warning C4309: 'argument' : truncation of constant value
+         server.cpp
+         serveragent.cpp
+         moc_client.cxx
+         moc_clientagent.cxx
+         moc_moderator.cxx
+         moc_server.cxx
+         moc_serveragent.cxx
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"CrossOS.dir\Debug\CrossOS.exe.embed.manifest.res" CrossOS.dir\Debug\CrossOS_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\tzx\git\CrossOS\build\Debug\CrossOS.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:/tzx/git/CrossOS/build /LIBPATH:D:/tzx/git/CrossOS/build/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\qtmaind.lib" "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\QtOpenGLd4.lib" "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\phonond4.lib" "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\QtGuid4.lib" "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\QtXmld4.lib" "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\QtNetworkd4.lib" "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\QtCored4.lib" /MANIFEST /ManifestFile:"CrossOS.dir\Debug\CrossOS.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/tzx/git/CrossOS/build/Debug/CrossOS.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tzx/git/CrossOS/build/Debug/CrossOS.lib" /MACHINE:X64 CrossOS.dir\Debug\CrossOS.exe.embed.manifest.res
+         CrossOS.dir\Debug\client.obj
+         CrossOS.dir\Debug\clientagent.obj
+         CrossOS.dir\Debug\main.obj
+         CrossOS.dir\Debug\moderator.obj
+         CrossOS.dir\Debug\server.obj
+         CrossOS.dir\Debug\serveragent.obj
+         CrossOS.dir\Debug\moc_client.obj
+         CrossOS.dir\Debug\moc_clientagent.obj
+         CrossOS.dir\Debug\moc_moderator.obj
+         CrossOS.dir\Debug\moc_server.obj
+         CrossOS.dir\Debug\moc_serveragent.obj  /machine:x64 /debug 
+         CrossOS.vcxproj -> D:\tzx\git\CrossOS\build\Debug\CrossOS.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"CrossOS.dir\Debug\CrossOS.exe.embed.manifest" /manifest CrossOS.dir\Debug\CrossOS.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"CrossOS.dir\Debug\CrossOS.exe.embed.manifest.res" CrossOS.dir\Debug\CrossOS_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\tzx\git\CrossOS\build\Debug\CrossOS.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:/tzx/git/CrossOS/build /LIBPATH:D:/tzx/git/CrossOS/build/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\qtmaind.lib" "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\QtOpenGLd4.lib" "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\phonond4.lib" "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\QtGuid4.lib" "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\QtXmld4.lib" "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\QtNetworkd4.lib" "C:\Qt\qt-4.8.6\qt-4.8.6-x64-msvc2010\lib\QtCored4.lib" /MANIFEST /ManifestFile:"CrossOS.dir\Debug\CrossOS.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/tzx/git/CrossOS/build/Debug/CrossOS.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tzx/git/CrossOS/build/Debug/CrossOS.lib" /MACHINE:X64 CrossOS.dir\Debug\CrossOS.exe.embed.manifest.res
+         CrossOS.dir\Debug\client.obj
+         CrossOS.dir\Debug\clientagent.obj
+         CrossOS.dir\Debug\main.obj
+         CrossOS.dir\Debug\moderator.obj
+         CrossOS.dir\Debug\server.obj
+         CrossOS.dir\Debug\serveragent.obj
+         CrossOS.dir\Debug\moc_client.obj
+         CrossOS.dir\Debug\moc_clientagent.obj
+         CrossOS.dir\Debug\moc_moderator.obj
+         CrossOS.dir\Debug\moc_server.obj
+         CrossOS.dir\Debug\moc_serveragent.obj  /machine:x64 /debug 
+         CrossOS.vcxproj -> D:\tzx\git\CrossOS\build\Debug\CrossOS.exe
+       FinalizeBuildStatus:
+         Deleting file "CrossOS.dir\Debug\CrossOS.unsuccessfulbuild".
+         Touching "CrossOS.dir\Debug\CrossOS.lastbuildstate".
+     1>Done Building Project "D:\tzx\git\CrossOS\build\CrossOS.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.27

@@ -1,0 +1,6 @@
+-ID:/tzx/git/CrossOS/build
+-ID:/tzx/git/CrossOS
+-DWIN32
+-o
+D:/tzx/git/CrossOS/build/moc_client.cxx
+D:/tzx/git/CrossOS/client.h

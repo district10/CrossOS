@@ -5,7 +5,7 @@
 
 /*
  * Moderator:
- *          * the tranlator
+ *          * the translator
  *          * the communicator
  *          * the encoder/decoder
  */
