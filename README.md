@@ -10,3 +10,5 @@ Cross OS Communication
 ![](img/server.jpg)
 
 ![](img/client.jpg)
+
+详细见文档：<http://tangzx.qiniudn.com/post-0059-exe-wrapper.html>
