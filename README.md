@@ -11,7 +11,7 @@ Cross OS Communication
 
 ![](img/client.jpg)
 
-详细见文档：<http://tangzx.qiniudn.com/post-0059-exe-wrapper.html>
+详细见文档：<http://tangzx.qiniudn.com/post-0059-exe-wrapper.html> （那个程序比这个复杂很多，那是以此为基础修改的。）
 
 ---
 
@@ -26,15 +26,16 @@ Cross OS Communication
 
 **Windows**
 
-用 CMake-Gui 的界面生成 Visual Studio 工程。
+用 CMake-GUI 的界面生成 Visual Studio 工程。
 
 **Linix**
 
 ```bash
-cd CrossOs
+cd CrossOS
 mkdir build && cd build
 cmake ..
 make
+./CrossOS
 ```
 
 Linux 上也编译通过了：
