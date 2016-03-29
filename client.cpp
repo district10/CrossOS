@@ -12,7 +12,7 @@ Client::Client(QObject *parent) :
             this, SLOT(connectToServer()));
 }
 
-void Client::writeToServer(QByteArray &ba)
+void Client::writeToServer(QByteArray ba)
 {
     if (!this->isWritable()) { // if not writable, just return
         return;

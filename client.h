@@ -13,7 +13,7 @@ public:
     Client(QObject *parent = 0);
 
     void setIpPort(QString ip, quint16 port);
-    void writeToServer(QByteArray &ba);
+    void writeToServer(QByteArray ba);
 
     void writeRed();
     void writeGreen();

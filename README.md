@@ -19,10 +19,17 @@ Cross OS Communication
 
 ### 安装
 
-- Linux: `apt-get ...qt blahblah`，或者到 Qt 官网或镜像站下载一个离线 `.run` 文件安装
 - Windows: <https://mirrors.ustc.edu.cn/qtproject/official_releases/>
+- Linux: `apt-get ...qt blahblah`，或者到 Qt 官网或镜像站下载一个离线 `.run` 文件安装
 
 ### 编译
+
+**Windows**
+
+用 CMake-Gui 的界面生成 Visual Studio 工程。
+
+(刚才试了一下，编译失败了。)
+
 **Linix**
 
 ```bash
@@ -32,6 +39,3 @@ cmake ..
 make
 ```
 
-**Windows**
-
-用 CMake-Gui 的界面生成 Visual Studio 工程。
