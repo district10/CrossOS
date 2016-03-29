@@ -28,8 +28,6 @@ Cross OS Communication
 
 用 CMake-Gui 的界面生成 Visual Studio 工程。
 
-(刚才试了一下，编译失败了。)
-
 **Linix**
 
 ```bash
@@ -39,3 +37,6 @@ cmake ..
 make
 ```
 
+Linux 上也编译通过了：
+
+![](img/linux.png)
