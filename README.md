@@ -7,6 +7,8 @@ Cross OS Communication
   * TCP/IP
   * QT 的 DataStream
 
+Windows 上效果：
+
 ![](img/server.jpg)
 
 ![](img/client.jpg)
@@ -17,7 +19,7 @@ Cross OS Communication
 
 ## How to?
 
-### 安装
+### 安装 Qt
 
 - Windows: <https://mirrors.ustc.edu.cn/qtproject/official_releases/>
 - Linux: `apt-get ...qt blahblah`，或者到 Qt 官网或镜像站下载一个离线 `.run` 文件安装
@@ -28,7 +30,7 @@ Cross OS Communication
 
 用 CMake-GUI 的界面生成 Visual Studio 工程。
 
-**Linix**
+**Linux**
 
 ```bash
 cd CrossOS
@@ -38,6 +40,6 @@ make
 ./CrossOS
 ```
 
-Linux 上也编译通过了：
+Linux 上效果：
 
 ![](img/linux.png)
